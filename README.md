@@ -7,6 +7,9 @@ This script creates some controller nulls for the selected objects.
 
 For each selected object this creates a new Null at the root level. Each selected object receives a constraint tag set to Transform. Each Null shape is set to Sphere, the display and icon colors are set to white.
 
+# Installation
+Create a new script in the Script Manager in Cinema 4D. Paste the contents of CreateControllers.py into the script and save it. Then use it as you see fit (like making it a clickable icon on your layout).
+
 # Customization
 You can customize the script to your likings:
 
