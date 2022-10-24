@@ -6,7 +6,7 @@ op: Optional[c4d.BaseObject]  # The active object, None if unselected
 
 def main() -> None:
     controllerNameSuffix = '_Controller'
-    controllerNullType = 13 # 13 = Sphere
+    controllerNullType = c4d.NULLOBJECT_DISPLAY_SPHERE
     controllerColor = c4d.Vector(1)
     
     doc.StartUndo()
